@@ -25,13 +25,15 @@
 ### 时间差计算
 
 从某个日期到今天已经过去了：
+```text
+   ```dataviewjs
+   const targetDate = dv.date("2023-05-01"); // 输入目标日期
+   const currentDate = dv.date("today");
+   const differenceInDays = currentDate.diff(targetDate, "days").days;
+   dv.span(`从 ${targetDate.toISODate()} 到今天已经过去了 ${Math.floor(differenceInDays)} 天。`);
+   ```
 
-```dataviewjs
-const targetDate = dv.date("2023-05-01"); // 输入目标日期
-const currentDate = dv.date("today");
-const differenceInDays = currentDate.diff(targetDate, "days").days;
-dv.span(`从 ${targetDate.toISODate()} 到今天已经过去了 ${Math.floor(differenceInDays)} 天。`);
-```
+### 注意代码开头的  \```dataviewjs  和结尾的  \```  ，可能某些浏览器不会显示
 
 ### 解释代码
 
