@@ -63,3 +63,8 @@
   
 
 ## Demo.md 中是一个实际可用的例子，可下载后根据需要修改
+
+## 如果你只需要简洁的时间计算，可用以下例子：
+- `=(( number(dateformat(date(today), "X")) - number(dateformat(date(2024-01-01), "X")) ) / 86400 )`
+- `=(date(today)-date(2024-01-01)).day`
+- `=(date(today)-date(2024-01-01))`
