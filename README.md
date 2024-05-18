@@ -1,4 +1,7 @@
-在Obsidian中，每次打开文档时自动计算日期差并以天为单位显示，可以使用Dataview插件和DataviewJS的结合。以下是具体的实现步骤：
+## Q:我希望在Obsibian中，每次打开这篇笔记时，使用Dataview插件自动计算并显示从指定日期到当前日期的天数差，入职时间格式“入职时间：xxxx/xx/x” 或者“xxxx-xx-xx”，并且当搜索到离职时间时，截止时间计算到离职时。请编写代码，谢谢！
+
+## ChatGPT:
+### 在Obsidian中，每次打开文档时自动计算日期差并以天为单位显示，可以使用Dataview插件和DataviewJS的结合。以下是具体的实现步骤：
 
 ### 安装与配置Dataview插件
 
