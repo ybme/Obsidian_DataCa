@@ -61,3 +61,6 @@ dv.span(`从 ${targetDate.toISODate()} 到今天已经过去了 ${Math.floor(dif
 
 1. 保存并查看笔记
    - 保存笔记文件后，每次打开这篇笔记时，Dataview插件会自动计算并显示从指定日期到当前日期的天数差。
+  
+
+## Demo.md 中是一个实际可用的例子，可下载后根据需要修改
